@@ -1,0 +1,612 @@
+15:12:40 **** Incremental Build of configuration Debug for project Number ****
+make all 
+Building file: ../src/Number.c
+Invoking: Cygwin C Compiler
+gcc -I"C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Number.d" -MT"src/Number.d" -o "src/Number.o" "../src/Number.c"
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stringfwd.h:40:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iosfwd:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/memoryfwd.h:50:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/memoryfwd.h:51:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iosfwd:39:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stringfwd.h:42:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stringfwd.h:43:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/postypes.h:40:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iosfwd:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/cwchar:62:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/cwchar:63:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/cwchar:135:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/cwchar:136:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iosfwd:40:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/postypes.h:68:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/postypes.h:69:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:38:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iosfwd:42:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iosfwd:43:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:39:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/exception:40:8: error: expected identifier or '(' before string constant
+ extern "C++" {
+        ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:60:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/functexcept.h:42:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/functexcept.h:43:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:61:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/cpp_type_traits.h:68:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/cpp_type_traits.h:69:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/cpp_type_traits.h:78:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/cpp_type_traits.h:79:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:62:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/type_traits.h:37:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/type_traits.h:38:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:63:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/numeric_traits.h:37:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/numeric_traits.h:38:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_pair.h:59:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:64,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/move.h:36:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/move.h:37:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/move.h:149:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/move.h:150:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:64:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_pair.h:65:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_pair.h:66:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:65:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator_base_types.h:70:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator_base_types.h:71:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator_base_funcs.h:65:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:66,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/debug/debug.h:46:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/debug/debug.h:47:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ { 
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/debug/debug.h:54:1: error: unknown type name 'namespace'
+ namespace __gnu_debug
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/debug/debug.h:55:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:66:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator_base_funcs.h:67:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator_base_funcs.h:68:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:67:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator.h:67:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator.h:68:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator.h:694:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_iterator.h:695:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:39:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:72:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_algobase.h:73:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:40:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:43:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:44:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:209:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/char_traits.h:210:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/c++locale.h:41:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/localefwd.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/clocale:51:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/clocale:52:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/localefwd.h:40:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/c++locale.h:45:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/c++locale.h:46:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/localefwd.h:42:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/cctype:62:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/cctype:63:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:41:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/localefwd.h:44:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/localefwd.h:45:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:39:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/atomicity.h:38:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/atomicity.h:39:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/new_allocator.h:33:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/c++allocator.h:33,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/allocator.h:46,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/string:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/new:44:8: error: expected identifier or '(' before string constant
+ extern "C++" {
+        ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/c++allocator.h:33:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/allocator.h:46,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/string:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/new_allocator.h:40:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ext/new_allocator.h:41:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/string:41:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/allocator.h:52:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/allocator.h:53:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/string:44:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ostream_insert.h:38:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ostream_insert.h:39:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/string:48:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_function.h:59:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_function.h:60:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/stl_function.h:731:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/string:48,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/backward/binders.h:59:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/backward/binders.h:60:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/string:52:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_string.h:45:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_string.h:46:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/string:53:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:40,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_string.tcc:44:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_string.tcc:45:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:44:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.h:787:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:41,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.tcc:39:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_classes.tcc:40:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:42:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ios_base.h:44:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:43:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/streambuf:45:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/streambuf:46:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/streambuf:828:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:43,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/streambuf.tcc:39:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/streambuf.tcc:40:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:39:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:37,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/cwctype:80:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/cwctype:81:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:41:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:37,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ctype_base.h:33:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ctype_base.h:34:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:48:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:37,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/streambuf_iterator.h:38:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/streambuf_iterator.h:39:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:37:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:50:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:51:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:1511:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:37,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ctype_inline.h:37:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ctype_inline.h:38:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:37:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:1513:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:1514:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.h:2608:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:37,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.tcc:35:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/locale_facets.tcc:36:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:40:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:41:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.h:475:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ios:44,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:38,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.tcc:35:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/basic_ios.tcc:36:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39:0,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:41:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:42:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/ostream:609:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:39,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ostream.tcc:41:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/ostream.tcc:42:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:40:0,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/istream:41:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/istream:42:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/istream:879:0,
+                 from C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:40,
+                 from ../src/Number.c:4:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/istream.tcc:41:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/bits/istream.tcc:42:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from ../src/Number.c:4:0:
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:42:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+C:\cygwin\lib\gcc\i686-pc-cygwin\4.8.3\include\c++/iostream:43:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+src/subdir.mk:18: recipe for target 'src/Number.o' failed
+make: *** [src/Number.o] Error 1
+
+15:12:41 Build Finished (took 543ms)
+

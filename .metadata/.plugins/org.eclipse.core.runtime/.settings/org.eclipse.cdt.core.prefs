@@ -1,0 +1,8 @@
+build.all.configs.enabled=false
+build.proj.ref.configs.enabled=false
+eclipse.preferences.version=1
+environment/workspace/PATH/delimiter=;
+environment/workspace/PATH/operation=replace
+environment/workspace/PATH/value=C\:/Program Files/Java/jre7/bin/client;C\:/Program Files/Java/jre7/bin;C\:/Program Files/Java/jre7/lib/i386;c\:\\cygwin\\bin;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files\\SlikSvn\\bin;C\:\\Java programming\\eclipse;
+environment/workspace/append=true
+environment/workspace/appendContributed=true
