@@ -1,0 +1,72 @@
+package game;
+
+import java.io.*;
+
+
+public class File {
+
+	BufferedReader br = null;
+	String path;
+	int lines=0;
+	
+	public File(String p){
+		
+		path = p;
+		try{
+			br = new BufferedReader(new FileReader(path));
+		}
+		catch (IOException e){
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void countLines() throws IOException {
+	    InputStream is = new BufferedInputStream(new FileInputStream(path));
+	    try {
+	    	byte[] c = new byte[1024];
+	        int readChars = 0;
+	        lines = 0;
+	        while ((readChars = is.read(c)) != -1) {
+	            for (int i = 0; i < readChars; ++i) {
+	                if (c[i] == '\n') {
+	                    ++lines;
+	                }
+	            }
+	        }
+	        
+	    } finally {
+	        is.close();
+	    }
+	}
+	
+	public String randomWord(){
+		
+		String res="";
+		
+		return res;
+	}
+	
+	/*
+	public void display(){
+		try{
+
+			String sCurrentLine;
+			br = new BufferedReader(new FileReader("C:\\dico.txt"));
+
+			while ((sCurrentLine = br.readLine()) != null){
+				System.out.println(sCurrentLine);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (br != null)br.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+		}
+	}
+	*/
+	
+}

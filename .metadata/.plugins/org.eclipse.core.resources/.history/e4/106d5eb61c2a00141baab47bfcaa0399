@@ -1,0 +1,52 @@
+package game;
+
+import java.awt.*;
+import java.io.*;
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+
+public class Animation extends JPanel{
+	
+	static final long serialVersionUID = 0;
+	
+	private ArrayList<BufferedImage> imgs;
+	private int x, y;
+	private BufferedImage pendu = null;
+	
+	
+	
+	
+	public Animation(int x, int y){
+		this.x = x;
+		this.y = y;
+		imgs = createImages(pendu);
+	}
+	
+	public ArrayList<BufferedImage> createImages(Image im){
+		
+		BufferedImage temp;
+		
+		try{
+			pendu = ImageIO.read(new File("pendu.jpg"));
+		}
+		catch(IOException e){
+			e.printStackTrace();
+		}
+		
+		for(int i=0; i<4; i++){
+			for(int j=0; j<3; j++){
+				temp = pendu.getSubimage(160*i,160*j, 160, 160);
+				imgs.add(temp);
+			}
+		}
+		
+		
+	}
+	
+	public void draw(Graphics g){
+		g.drawImage(img, x, y, null);
+	}
+}

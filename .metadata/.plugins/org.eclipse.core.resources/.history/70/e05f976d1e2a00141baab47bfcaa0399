@@ -1,0 +1,20 @@
+package game;
+
+import java.awt.Graphics;
+import javax.swing.JPanel;
+
+public class HangmanG extends JPanel{
+
+	MysteryWord word;
+	Animation a;
+	
+	public HangmanG(MysteryWord w){
+		word = w;
+		a = new Animation();
+	}
+	
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
+		
+	  }
+}

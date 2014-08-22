@@ -1,0 +1,30 @@
+package game;
+
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
+
+public class Animation extends JPanel{
+	
+	static final long serialVersionUID = 0;
+	
+	private Image img;
+	private int x, y;
+	private int tries;
+	
+	Image pendu = new ImageIcon("pendu.png").getImage();
+	
+	public Animation(int x, int y){
+		this.x = x;
+		this.y = y;
+		this.tries = 0;
+		
+	}
+	
+	public void draw(Graphics g){
+		g.drawImage(img, x, y, null);
+	}
+}
